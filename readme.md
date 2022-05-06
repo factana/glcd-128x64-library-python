@@ -8,7 +8,7 @@ A simple library for JHD128x64E GLCD, This library is used to drive JHD128x64E G
 # Installation 
 To install the library just type:
 ```
-pip install glcd-jhd128x53e
+pip install glcd-jhd128x64e
 ```
 
 # Hardware support
