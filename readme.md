@@ -1,5 +1,5 @@
 # JHD128x64E
-A simple library for JHD128x64E GLCD, This library is used to drive JHD128x64E GLCD which has 2 KS0108 Chips, This library can display all Alphabets in English language both CAPS and small, numbers from 0 to 9 and and standard special characters.
+A simple library for JHD128x64E GLCD, This library is used to drive JHD128x64E GLCD which has 2 KS0108 Chips, This library can display all Alphabets in English language both CAPS and small, numbers from 0 to 9 and standard special characters.
 
 # Datasheet of JHD128X64E GLCD
 
@@ -40,3 +40,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+# Main references
+* [Openlab](https://openlabpro.com/guide/ks0108-graphic-lcd-interfacing-pic18f4550-part-2/)
+* [ExploreEmbedded](https://github.com/ExploreEmbedded/Tutorials) 
