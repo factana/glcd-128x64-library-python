@@ -12,6 +12,7 @@ setup(
 	author = metadata.author,
 	author_email = metadata.author_email,
 	url = metadata.url,
+  	keywords = metadata.keywords,
 	packages = find_packages(),
 	long_description=long_description,
   long_description_content_type='text/markdown'
