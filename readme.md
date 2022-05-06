@@ -1,4 +1,4 @@
-# JHD128x64E
+# GLCD_JHD128x64E
 A simple library for JHD128x64E GLCD, This library is used to drive JHD128x64E GLCD which has 2 KS0108 Chips, This library can display all Alphabets in English language both CAPS and small, numbers from 0 to 9 and standard special characters.
 
 # Datasheet of JHD128X64E GLCD
