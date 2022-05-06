@@ -1,0 +1,7 @@
+name = "glcd-jhd128x53e"
+version = "1.0.0"
+description = "A simple library for controlling JHD128X64E GLCDs"
+license = "MIL"
+author = "Eldho K K"
+author_email = "eldhosachu@gmail.com"
+url = "https://github.com/Eldho1416/JHD128x64E"
