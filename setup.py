@@ -8,6 +8,7 @@ setup(
 	license = metadata.license,
 	author = metadata.author,
 	author_email = metadata.author_email,
+	keywords = metadata.keywords,
 	url = metadata.url,
 	packages = find_packages(),
 )
