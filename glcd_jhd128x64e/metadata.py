@@ -1,5 +1,5 @@
 name = "glcd-jhd128x64"
-version = "1.0.0"
+version = "1.0.1"
 description = "A simple library for controlling JHD128X64E GLCDs"
 license = "MIT"
 author = "Eldho K K"
