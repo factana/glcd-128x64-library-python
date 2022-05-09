@@ -15,5 +15,12 @@ setup(
   	keywords = metadata.keywords,
 	packages = find_packages(),
 	long_description=long_description,
-  long_description_content_type='text/markdown'
+  	long_description_content_type='text/markdown'
+	classifiers=[
+          'License :: MIT License',
+          'Operating System :: LINUX',
+          'Programming Language :: Python,
+          'Topic :: System :: Hardware :: Hardware Drivers',
+          'Topic :: Software Development :: Libraries :: Python Modules',
+	]
 )
