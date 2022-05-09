@@ -21,7 +21,15 @@ pip install glcd-jhd128x64e
 * No scroll option available
 * Can only be used for Raspberry Pi
 
+
 # Usage Examples
+
+* Pinmap 
+```
+GLCD = glcd_jhd128x64e.KS0108(rs=4, rw=7, en=8, d0=9, d1=10, d2=11, d3=14, d4=15, d5=17, d6=18, d7=25, chip_set0=22, chip_set1=23, reset=24)
+```
+Here the pin numbers can be changed on user's convenience
+
 In this program a string and a character is displayed on the GLCD continuously starting chip 0, line 0 and cursor 0
 
 ```
