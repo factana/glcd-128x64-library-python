@@ -1,8 +1,5 @@
 ### 128x64 Graphical LCD Display 
-A simple library for JHD128x64E GLCD, this GLCD consists 2 KS0108 chip which developed by Samsung electronics is a LCD driver LSl 
-with 64 channel output for dot matrix liquid crystal graphic display system. It has the internal display RAM for storing the display 
-data transferred from a 8 bit microcontroller and generates the dot matrix Liquid crystal driving signals corresponding to stored data.
-This library can display all Alphabets in English language both CAPS and small, numbers from 0 to 9 and standard special characters.
+A simple library for JHD128x64E GLCD, this GLCD consists 2 KS0108 chip which developed by Samsung electronics is a LCD driver LSl with 64 channel output for dot matrix liquid crystal graphic display system. It has the internal display RAM for storing the display data transferred from a 8 bit microcontroller and generates the dot matrix Liquid crystal driving signals corresponding to stored data. This library can display all Alphabets in English language both CAPS and small, numbers from 0 to 9 and standard special characters.
 
 ### Resources
 * For datasheets of JHD128x64E and KS0108 please refer [Docs](https://github.com/factana/fogwing-glcd-library-python/tree/main/Docs)
