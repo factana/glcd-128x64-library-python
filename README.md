@@ -29,7 +29,7 @@ small, numbers from 0 to 9 and standard special characters.
 To install the library just type:
 
 ```
-pip install glcd-jhd128x64e
+pip install glcd-jhd128x64
 ```
 
 ### Available methods
