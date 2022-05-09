@@ -2,7 +2,7 @@ from glcd_jhd128x64e import metadata
 from setuptools import setup, find_packages
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / "readme.md").read_text()
+long_description = (this_directory / "README.md").read_text()
 
 setup(
 	name = metadata.name,
@@ -12,14 +12,15 @@ setup(
 	author = metadata.author,
 	author_email = metadata.author_email,
 	url = metadata.url,
-  	keywords = metadata.keywords,
+	keywords = metadata.keywords,
 	packages = find_packages(),
 	long_description=long_description,
-  	long_description_content_type='text/markdown'
+	long_description_content_type='text/markdown',
 	classifiers=[
-          'License :: MIT License',
-          'Operating System :: LINUX',
-          'Programming Language :: Python,
+          'License :: OSI Approved :: MIT License',
+          'Operating System :: POSIX',
+          'Operating System :: Unix',
+          'Programming Language :: Python :: 3.10',
           'Topic :: System :: Hardware :: Hardware Drivers',
           'Topic :: Software Development :: Libraries :: Python Modules',
 	]
