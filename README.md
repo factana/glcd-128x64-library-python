@@ -123,39 +123,39 @@ if __name__ == "__main__":
 ```
 import glcd_jhd128x64e
 import Adafruit_DHT
-import time  
+import time
 
-      
+
 def main():
-    GLCD = glcd_jhd128x64e.KS0108(rs=4, rw=7, en=8, d0=9, d1=10, 
-                              d2=11, d3=14, d4=15, d5=17, 
-                              d6=18, d7=25, chip_set0=22, 
-                              chip_set1=23, reset=24)
+    GLCD = glcd_jhd128x64e.KS0108(rs=4, rw=7, en=8, d0=9, d1=10,
+                                  d2=11, d3=14, d4=15, d5=17,
+                                  d6=18, d7=25, chip_set0=22,
+                                  chip_set1=23, reset=24)
     hum, temp = Adafruit_DHT.read_retry(11, 26)
     time.sleep(2)
     GLCD.start()
     while True:
-	GLCD.set_cursor(0, 0, 0)
-	GLCD.print_str("This example will display\nTemperature and humidity")
-	GLCD.go_to_nextline()
-	GLCD.print_str("from DHT11 sensor")
-    	GLCD.set_cursor(0, 3, 0)
-    	GLCD.print_str("Temp: ")
-    	GLCD.print_str(temp)
-    	GLCD.print_chr("C")
-    	GLCD.set_cursor(1, 3, 0)
-    	GLCD.print_str("Hum: ")
-    	GLCD.print_str(hum)
-    	GLCD.print_chr("%")
-	GLCD.set_cursor(0, 1, 0)
-        
-            
+        GLCD.set_cursor(0, 0, 0)
+        GLCD.print_str("This example displays\nTemperature, humidity")
+        GLCD.go_to_nextline()
+        GLCD.print_str("from DHT11 sensor")
+        GLCD.set_cursor(0, 4, 0)
+        GLCD.print_str("Temp: ")
+        GLCD.print_str(temp)
+        GLCD.print_chr("C")
+        GLCD.set_cursor(1, 4, 0)
+        GLCD.print_str("Hum: ")
+        GLCD.print_str(hum)
+        GLCD.print_chr("%")
+
+
 if __name__ == "__main__":
     main()
+
 ```
 
-Note: While displaying dynamic data the function used to set cursor potion and to display data must be in while loop, "
-\n" will shift the data to the next line in display.
+Note: While displaying dynamic data the function used to set cursor potion and to display data must be in while loop, 
+"\n" will shift the data to the next line in display.
 
 ### Main references
 
