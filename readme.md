@@ -19,7 +19,7 @@ A simple library for JHD128x64E GLCD, this GLCD consists 2 KS0108 chip which dev
 ### Installation 
 To install the library just type:
 ```
-pip install glcd-jhd128x64e
+pip install glcd-jhd128x64
 ```
 
 ### Available methods 
