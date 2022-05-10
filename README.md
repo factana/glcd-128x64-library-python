@@ -8,8 +8,7 @@ small, numbers from 0 to 9 and standard special characters.
 
 ### Resources
 
-* For datasheets of JHD128x64E and KS0108 please
-  refer [docs](https://github.com/factana/fogwing-glcd-library-python/tree/main/Docs)
+* For datasheets of JHD128x64E and KS0108 please refer [docs](https://github.com/factana/fogwing-glcd-library-python/tree/main/docs)
 
 ### Hardware support
 
