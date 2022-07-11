@@ -161,3 +161,4 @@ Note: While displaying dynamic data the function used to set cursor potion and t
 * [Openlab](https://openlabpro.com/guide/ks0108-graphic-lcd-interfacing-pic18f4550-part-2/)
 * [ExploreEmbedded](https://github.com/ExploreEmbedded/Tutorials) 
 
+Please visit https://www.fogwing.io/industrial-iot-platform/ for more information about Fogwing Industrial IoT Platform.
