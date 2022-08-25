@@ -25,6 +25,11 @@ small, numbers from 0 to 9 and standard special characters.
 
 ### Installation
 
+Install RPi.GPIO package to access GPIOs of Raspberry Pi
+
+```
+pip install RPi.GPIO
+```
 To install the library just type:
 
 ```
@@ -42,7 +47,7 @@ GLCD = glcd_jhd128x64e.KS0108(rs=4, rw=7, en=8, d0=9, d1=10,
                               chip_set1=23, reset=24)
 ```
 
-Here the pin numbers can be changed for the user's convenience.
+Pinmap is based on `GPIO.BCM`, Here the pin numbers can be changed for the user's convenience.
 
 * Initialization
 
